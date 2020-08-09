@@ -15,16 +15,16 @@ Project initially developed at **Next Level Week #2** from @Rocketseat.
 ---
 ## Features list (also todo-list)
 
-- [x] Lnading page
-- [x] show total connections
+- [x] Landing page
+- [x] Show total connections
 - [x] Study Page
 - [x] Teacher list Page
-- [x] Filter teachers(classes)
-- [x] Show filtered teachers(classes)
-- [x] Give Classes Page
+- [x] Filter teachers classes
+- [x] Show filtered teachers classes
+- [x] Give-Classes Page
 - [x] Teacher can register a class
 - [ ] Show all the classes by pagination
-- [ ] Dinamically filter
+- [ ] Dinamically filter classes
 - [ ] Login
 - [ ] Register
 - [ ] Favorites Page
@@ -43,7 +43,7 @@ Project initially developed at **Next Level Week #2** from @Rocketseat.
 
 ## Dependencies (Pre-requisites)
 
-Before try :microscope: proffy-api from your own local network you must have installed the following dependencies:
+Before try :microscope: proffy-web from your own local network you must have installed the following dependencies:
 
 - [NodeJS](https://nodejs.org/en/download/)
 - [yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
@@ -95,12 +95,12 @@ Install all the packages automatically, just run:
 yarn
 ```
 
-Set up api address
+Set-up API address:
 
 :warning: before proceding you must set up the [Api](https://github.com/Kochiyama/proffy-api)
 follow the instructions into the link above
 
-with your 'api consuming address' in hands, open the `api.ts` file on your text editor (reccomend: vscode). 
+with your 'API address' in hands, open the `api.ts` file on your text editor (my recomendation: vscode). 
 It is located at `proffy-web/src/services`  
 Then replace the Base_url string to your api address:
 
@@ -110,7 +110,7 @@ And finally:
 ```
 yarn start
 ```
-it  will automatically open the proffy on web
+it  will automatically open proffy on web running at your local machine
 
 <img src="readme-assets/yarn-start-web.gif" />
 
